@@ -1,0 +1,11 @@
+public class Withargwithoutreturn {
+	
+	public void display(String name)
+	{
+		System.out.println(name);
+	}
+    public static void main(String[] args) {
+    Withargwithoutreturn obj=new Withargwithoutreturn();
+	obj.display("hello");
+    }
+}
