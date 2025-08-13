@@ -1,0 +1,15 @@
+public class Withoutargwithret {
+
+	public String display()
+	{
+		String name="Priya";
+		return name;
+	}
+    public static void main(String[] args) {
+    Withoutargwithret obj=new Withoutargwithret();
+	String res = obj.display();
+    System.out.println(res);
+
+	}
+
+}
