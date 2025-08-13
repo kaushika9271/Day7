@@ -1,0 +1,13 @@
+public class Reversestring {
+      public static void main(String[]args) {
+    	  StringBuffer sb= new StringBuffer("Hello World");
+    	 System.out.println(sb);
+    	 sb.reverse();
+    	 System.out.println(sb);
+    	 String words[]=sb.toString().split();
+    	 for(String word:words)
+    	 {
+    		 System.out.println(words);
+    	 }
+      }
+}
