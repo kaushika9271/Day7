@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Arguments {
+	
+		public void display()
+		{
+			System.out.println("hi");
+		}
+
+	public static void main(String[] args) {
+		Arguments obj=new Arguments();
+		obj.display();
+		
+	}
+
+}
